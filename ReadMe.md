@@ -1,3 +1,6 @@
+out.mp4 file for download:
+https://drive.google.com/file/d/1vASDX5EHR_tIJSbgOQbCpVhiP07K4G2D/view?usp=drive_link
+
 ## Method Overview
 This solution implements a stabilize–then–detect-and-track pipeline tailored to a challenging top-down 
 drone-surveillance video with strong compression artifacts, rolling-shutter “jello,” fast ego-motion, and partial occlusions. 
@@ -86,5 +89,6 @@ To fully adapt the solution, several key requirements must be clarified-
 
 
 Clarifying these questions would directly guide whether the system should prioritize runtime, accuracy, robustness, or scalability.
+
 
 

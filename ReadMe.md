@@ -45,18 +45,18 @@ out.mp4 containing per-frame bounding box and track ID overlay, as required.
 
 
 ## KPIs and Runtime / Jetson Feasibility Estimate
-Results from the full run:
-Total frames: 14,229
-Total time: 2770.79 s
-FPS: 5.14
-Lost frames: 3610 (25.4%)
-Redetect calls: 3776
-Redetect success rate: 4.4% (166 successful reacquisitions)
-Max LOST streak: 3270 frames
-Avg LOST streak: 97.6 frames
-Mean bbox area: 2048 px
-Mean center motion: 2.92 px/frame
-Jetson feasibility (estimate):
+- Results from the full run:
+- Total frames: 14,229
+- Total time: 2770.79 s
+- FPS: 5.14
+-Lost frames: 3610 (25.4%)
+- Redetect calls: 3776
+- Redetect success rate: 4.4% (166 successful reacquisitions)
+- Max LOST streak: 3270 frames
+- Avg LOST streak: 97.6 frames
+- Mean bbox area: 2048 px
+- Mean center motion: 2.92 px/frame
+- Jetson feasibility (estimate):
 The current classical pipeline is CPU-bound and not optimized for low-power embedded hardware.
 However, due to its lightweight nature, a Jetson Xavier NX / Orin should run this method in real time (≥15–20 FPS) 
 after modest optimization (vectorization, reduced search windows, stricter re-detection triggers).
@@ -86,3 +86,4 @@ To fully adapt the solution, several key requirements must be clarified-
 
 
 Clarifying these questions would directly guide whether the system should prioritize runtime, accuracy, robustness, or scalability.
+

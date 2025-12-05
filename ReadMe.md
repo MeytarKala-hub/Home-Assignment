@@ -45,7 +45,7 @@ out.mp4 containing per-frame bounding box and track ID overlay, as required.
 
 
 ## KPIs and Runtime / Jetson Feasibility Estimate
-- Results from the full run:
+Results from the full run:
 - Total frames: 14,229
 - Total time: 2770.79 s
 - FPS: 5.14
@@ -86,4 +86,5 @@ To fully adapt the solution, several key requirements must be clarified-
 
 
 Clarifying these questions would directly guide whether the system should prioritize runtime, accuracy, robustness, or scalability.
+
 
